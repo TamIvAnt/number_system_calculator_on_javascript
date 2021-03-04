@@ -1,0 +1,57 @@
+h1 {
+    color: #fff600;
+    text-align: center;
+}
+
+
+.container-fluid {
+    height: 100vh;
+
+    background-color: #26001b;
+    color: #ff005c;
+
+    .container {
+        height: 100vh;
+        background-color: #810034;
+
+        .container-first {
+            height: 50vh;
+
+            .inp {
+                width: 100%;
+            }
+    
+        }
+        
+        #btnDo {
+            margin-top: 5%;
+            margin-bottom: 3%;
+
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+
+        .container-second {
+            height: 50vh;
+
+            .button-block {
+                margin-top: 2%;
+    
+                .btn-action {
+                    background-color: #ff005c;
+                    border: 0;
+                }
+            }
+    
+            .input-num2 {
+                margin-top: 2%;
+            }
+        }
+
+    }
+
+}
+
+
+

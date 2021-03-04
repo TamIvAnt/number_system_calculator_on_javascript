@@ -1,0 +1,49 @@
+h1 {
+  color: #fff600;
+  text-align: center;
+}
+
+.container-fluid {
+  height: 100vh;
+  background-color: #26001b;
+  color: #ff005c;
+}
+
+.container-fluid .container {
+  height: 100vh;
+  background-color: #810034;
+}
+
+.container-fluid .container .container-first {
+  height: 50vh;
+}
+
+.container-fluid .container .container-first .inp {
+  width: 100%;
+}
+
+.container-fluid .container #btnDo {
+  margin-top: 5%;
+  margin-bottom: 3%;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.container-fluid .container .container-second {
+  height: 50vh;
+}
+
+.container-fluid .container .container-second .button-block {
+  margin-top: 2%;
+}
+
+.container-fluid .container .container-second .button-block .btn-action {
+  background-color: #ff005c;
+  border: 0;
+}
+
+.container-fluid .container .container-second .input-num2 {
+  margin-top: 2%;
+}
