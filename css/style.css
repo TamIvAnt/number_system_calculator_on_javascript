@@ -18,6 +18,10 @@ h1 {
   height: 50vh;
 }
 
+.container-fluid .container .container-first .hint {
+  color: #fff600;
+}
+
 .container-fluid .container .container-first .inp {
   width: 100%;
 }
@@ -42,6 +46,7 @@ h1 {
 .container-fluid .container .container-second .button-block .btn-action {
   background-color: #ff005c;
   border: 0;
+  margin-bottom: 3%;
 }
 
 .container-fluid .container .container-second .input-num2 {

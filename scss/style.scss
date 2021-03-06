@@ -17,10 +17,14 @@ h1 {
         .container-first {
             height: 50vh;
 
+            .hint {
+                color: #fff600;
+            }
+
             .inp {
                 width: 100%;
             }
-    
+
         }
         
         #btnDo {
@@ -41,7 +45,10 @@ h1 {
                 .btn-action {
                     background-color: #ff005c;
                     border: 0;
-                }
+
+                    margin-bottom: 3%;
+                } 
+                
             }
     
             .input-num2 {
