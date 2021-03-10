@@ -14,10 +14,14 @@
 </head>
 <body>
     
-    <div class="container-fluid">
-        <div class="container">
+    <div class="container-fluid" style="background-color: #26001b; color: #ff005c;
+    ">
+        <div class="container" style="background-color: #810034;">
+
+            <button class="btn" id="btn-theme"> <img src="img/icons8-sun-48.png"sun">  </button>
+
             <div class="container-first">
-                <h1>Перевод числа</h1>
+                <h1 id="h1" style="color: #fff600;">Перевод числа</h1>
                 <div class="input-block d-flex row justify-content-between align-items-cente">
                     <div class="col-md-6">
                         <h4>Число</h4>
@@ -27,7 +31,7 @@
                     <div class="col-md-6">
                         <h4>Система счисления</h4>
                         <input class="inp" type="text" id="numsys">
-                        <small id="emailHelp" class="form-text hint">В которой вы хотите получить ответ.</small>
+                        <small id="emailHelp" class="form-text hint" style="color: #fff600;">В которой вы хотите получить ответ.</small>
                     </div>
                 </div>
                 <button class="col-md-2 btn btn-success" id="btnDo">Перевести</button>
@@ -35,7 +39,7 @@
     
             
             <div class="container-second">
-                <h1>Действия</h1>
+                <h1 id="h2">Действия</h1>
 
                 <div class="col-md-2 input-num2">
                     <h4>Число 2</h4>
@@ -43,10 +47,10 @@
                 </div>
 
                 <div class="button-block d-flex row justify-content-between align-items-center">
-                    <button class="col-md-2 btn btn-success btn-action" id = 'btnPlus'>+</button>
-                    <button class="col-md-2 btn btn-success btn-action" id = 'btnMinus'>-</button>
-                    <button class="col-md-2 btn btn-success btn-action" id = 'btnMul'>*</button>
-                    <button class="col-md-2 btn btn-success btn-action" id = 'btnDev'>/</button>
+                    <button class="col-md-2 btn btn-success btn-action btn1" id = 'btnPlus' style="background-color: #ff005c;">+</button>
+                    <button class="col-md-2 btn btn-success btn-action btn2" id = 'btnMinus' style="background-color: #ff005c;">-</button>
+                    <button class="col-md-2 btn btn-success btn-action btn3" id = 'btnMul' style="background-color: #ff005c;">*</button>
+                    <button class="col-md-2 btn btn-success btn-action btn4" id = 'btnDev' style="background-color: #ff005c;">/</button>
                 </div>
                 
             </div>
