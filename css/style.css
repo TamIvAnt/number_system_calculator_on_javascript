@@ -1,25 +1,32 @@
 h1 {
-  color: #fff600;
   text-align: center;
+  transition: all 12s, ease;
+  -webkit-transition: all 12s, ease;
+  -moz-transition: all 12s, ease;
+  -o-transition: all 12s, ease;
+  -ms-transition: all 12s, ease;
 }
 
 .container-fluid {
   height: 100vh;
-  background-color: #26001b;
-  color: #ff005c;
+  transition: all 12s, ease;
+  -webkit-transition: all 12s, ease;
+  -moz-transition: all 12s, ease;
+  -o-transition: all 12s, ease;
+  -ms-transition: all 12s, ease;
 }
 
 .container-fluid .container {
   height: 100vh;
-  background-color: #810034;
+  transition: all 12s, ease;
+  -webkit-transition: all 12s, ease;
+  -moz-transition: all 12s, ease;
+  -o-transition: all 12s, ease;
+  -ms-transition: all 12s, ease;
 }
 
 .container-fluid .container .container-first {
   height: 50vh;
-}
-
-.container-fluid .container .container-first .hint {
-  color: #fff600;
 }
 
 .container-fluid .container .container-first .inp {
@@ -40,13 +47,19 @@ h1 {
 }
 
 .container-fluid .container .container-second .button-block {
-  margin-top: 2%;
+  margin-top: 5%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
 }
 
 .container-fluid .container .container-second .button-block .btn-action {
-  background-color: #ff005c;
   border: 0;
   margin-bottom: 3%;
+  transition: all 12s, ease;
+  -webkit-transition: all 12s, ease;
+  -moz-transition: all 12s, ease;
+  -o-transition: all 12s, ease;
+  -ms-transition: all 12s, ease;
 }
 
 .container-fluid .container .container-second .input-num2 {

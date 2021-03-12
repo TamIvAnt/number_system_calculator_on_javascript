@@ -1,13 +1,29 @@
 h1 {
     text-align: center;
+
+    transition: all 12s, ease;
+    -webkit-transition: all 12s, ease;
+    -moz-transition: all 12s, ease;
+    -o-transition: all 12s, ease;
+    -ms-transition: all 12s, ease;
 }
 
 
 .container-fluid {
     height: 100vh;
+    transition: all 12s, ease;
+    -webkit-transition: all 12s, ease;
+    -moz-transition: all 12s, ease;
+    -o-transition: all 12s, ease;
+    -ms-transition: all 12s, ease;
 
     .container {
         height: 100vh;
+        transition: all 12s, ease;
+        -webkit-transition: all 12s, ease;
+        -moz-transition: all 12s, ease;
+        -o-transition: all 12s, ease;
+        -ms-transition: all 12s, ease;
 
         .container-first {
             height: 50vh;
@@ -31,12 +47,18 @@ h1 {
             height: 50vh;
 
             .button-block {
-                margin-top: 2%;
+                margin-top: 5%;
+                margin-left: 0.5%;
+                margin-right: 0.5%;
     
                 .btn-action {
                     border: 0;
-
                     margin-bottom: 3%;
+                    transition: all 12s, ease;
+                    -webkit-transition: all 12s, ease;
+                    -moz-transition: all 12s, ease;
+                    -o-transition: all 12s, ease;
+                    -ms-transition: all 12s, ease;
                 } 
                 
             }
