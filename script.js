@@ -57,7 +57,7 @@ btnDev.addEventListener('click', onBtnDevClick)
 let replaceTheme = () => {
     let elem = document.querySelector('#btn-theme')
     
-    elem.addEventListener("click", ChangeTheme)
+    elem.addEventListener("click", ChangeTheme())
 
     let ChangeTheme = () => {
         let themeLight = '<img src="img/icons8-sun-48.png" alt="sun">',
