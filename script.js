@@ -55,11 +55,7 @@ btnMul.addEventListener('click', onBtnMulClick)
 btnDev.addEventListener('click', onBtnDevClick)
 
 let replaceTheme = () => {
-    let elem = document.querySelector('#btn-theme')
-    
-    elem.addEventListener("click", ChangeTheme())
-
-    let ChangeTheme = () => {
+    document.querySelector('#btn-theme').addEventListener("click", () => {
         let themeLight = '<img src="img/icons8-sun-48.png" alt="sun">',
             themeDark = '<img src="img/icons8-moon-phase-48.png" alt="moon">',
             h1 = document.querySelector('#h1'),
@@ -109,6 +105,6 @@ let replaceTheme = () => {
             btn3.style.backgroundColor = '#5eaaa8'
             btn4.style.backgroundColor = '#5eaaa8'
         }
-    }
+    })
 }
 replaceTheme()
