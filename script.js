@@ -68,8 +68,8 @@ let replaceTheme = () => {
             btn3 = document.querySelector('.btn3'),
             btn4 = document.querySelector('.btn4')
         
-        if (elem.innerHTML == themeLight) {
-            elem.innerHTML = themeDark
+        if (document.querySelector('#btn-theme').innerHTML == themeLight) {
+            document.querySelector('#btn-theme').innerHTML = themeDark
             h1.style.color = '#eb5e0b'
             h2.style.color = '#eb5e0b'
             containerFluid.style.backgroundColor = '#a3d2ca'
@@ -81,7 +81,7 @@ let replaceTheme = () => {
             btn3.style.backgroundColor = '#5eaaa8'
             btn4.style.backgroundColor = '#5eaaa8'
         } else if (elem.innerHTML == themeDark) {
-            elem.innerHTML = themeLight
+            document.querySelector('#btn-theme').innerHTML = themeLight
             h1.style.color = '#fff600'
             h2.style.color = '#fff600'
             containerFluid.style.backgroundColor = '#26001b'
@@ -93,7 +93,7 @@ let replaceTheme = () => {
             btn3.style.backgroundColor = '#ff005c'
             btn4.style.backgroundColor = '#ff005c'
         } else {
-            elem.innerHTML = themeDark
+            document.querySelector('#btn-theme').innerHTML = themeDark
             h1.style.color = '#eb5e0b'
             h2.style.color = '#eb5e0b'
             containerFluid.style.backgroundColor = '#a3d2ca'
