@@ -80,7 +80,7 @@ let replaceTheme = () => {
             btn2.style.backgroundColor = '#5eaaa8'
             btn3.style.backgroundColor = '#5eaaa8'
             btn4.style.backgroundColor = '#5eaaa8'
-        } else if (elem.innerHTML == themeDark) {
+        } else if (document.querySelector('#btn-theme').innerHTML == themeDark) {
             document.querySelector('#btn-theme').innerHTML = themeLight
             h1.style.color = '#fff600'
             h2.style.color = '#fff600'
